@@ -1,6 +1,6 @@
       include '../head.f'
       parameter (nvertx=17)
-      parameter (amiset=151)
+      parameter (amiset=vlarge)
       include '../declar.f'
       include '../common4.f'
       do 40 n4 = 2, m
