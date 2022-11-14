@@ -1,8 +1,8 @@
-      include '../fortran/head.f'
+      include '../head.f'
       parameter (nvertx=27)
       parameter (amiset=vlarge)
-      include '../fortran/declar.f'
-      include '../fortran/common4.f'
+      include '../declar.f'
+      include '../common4.f'
       do 40 n4 = 2, m
       call repeat (4, *40)
       do 50 n5 = 2, m
@@ -52,7 +52,7 @@
       do 270 n27 = 2, m
       call repeat (27, *270)
       L = 27
-      include '../fortran/check.f'
+      include '../check.f'
 270   u(nn(27)) = .false.
 260   u(nn(26)) = .false.
 250   u(nn(25)) = .false.
@@ -79,4 +79,4 @@
 40    u(nn(4)) = .false.
 30    u(nn(3)) = .false.
 20    u(nn(2)) = .false.
-      include '../fortran/tail.f'
+      include '../tail.f'
