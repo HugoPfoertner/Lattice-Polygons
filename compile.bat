@@ -1,0 +1,1 @@
+gfortran -o 17w.exe -Ofast 17w.f repeat.f unshear.f diamet.f gcd.f
