@@ -4,6 +4,7 @@ To run
 - download zip file
 - unzip
 - open a terminal in the target dirctory.
-- Execute .\compile (gfortran needed)
-- Change to subdirectory .\17
-- execute "17w.exe 34" or "17w.exe 42"
+- Execute .\compile nn, where nn is the number of vertices (gfortran needed)
+- Change to subdirectory .\nn
+- execute "nnw.exe mm" or "nnw.exe mm" where mm is the position of the last segment considered in the spiral lists.
+In the example for n=17 mm=34 or mm=42 is a reasonable choice.
